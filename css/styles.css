@@ -3,6 +3,7 @@
 * --------------------------------------------------
 */
 
+@import url(fonts/custom-font-raleway.css);
 html, body {
     overflow-x: hidden;
     /* Prevent scroll on narrow devices */
@@ -19,12 +20,20 @@ footer {
  */
 
 .navbar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
     background-color: #ffffff;
     border: none;
     padding: 20px;
 }
 .navbar-brand {
     font-size: 20px;
+}
+.navbar-default .navbar-brand {
+    color: rgb(54, 54, 54);
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(54, 54, 54);
 }
 .navbar-header .color-me:hover {
     color: #0099cc;
@@ -42,11 +51,18 @@ footer {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: rgb(54, 54, 54);
+}
+
 /*Profile*/
+
 .dropdown-menu.custom-dropdown-menu {
-  padding: 0;
-  width: 100%;
-  min-width: 250px;
+    padding: 0;
+    width: 100%;
+    min-width: 250px;
 }
 .card {
     padding-top: 20px;
@@ -856,29 +872,34 @@ footer {
 .terminal-window .green {
     color: green;
 }
+
 /*introduction*/
+
 .custom-introduction {
-@import url(fonts/custom-font-raleway.css);
-  font-family: 'Raleway', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
 }
 .custom-introduction h1 {
-  color: #777;
-  font-size: 2em;
-  font-weight: lighter;
+    color: rgb(54, 54, 54);
+    font-size: 2em;
+    font-weight: lighter;
 }
-
-#introduction-heading span.typed-cursor{
-  opacity: 1;
-  animation: blink 0.7s infinite;
+#introduction-heading span.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
 }
-
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
