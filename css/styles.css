@@ -34,9 +34,20 @@ footer {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
-
+.navbar-header .color-me:hover {
+    color: #0099cc;
+    border-bottom: 3px solid #0099cc;
+}
+.nav.navbar-nav.navbar-right li a:hover {
+    color: #0099cc;
+    border-bottom: 3px solid #0099cc;
+}
 /*Profile*/
-
+.dropdown-menu.custom-dropdown-menu {
+  padding: 0;
+  width: 100%;
+  min-width: 250px;
+}
 .card {
     padding-top: 20px;
     background-color: rgba(214, 224, 226, 0.2);
@@ -204,7 +215,7 @@ footer {
     background-color: rgba(214, 224, 226, 0.2);
 }
 .card.hovercard .cardheader {
-    background: url("../img/tumblr_static_nerdy.png");
+    background: #0099cc;
     background-size: cover;
     height: 135px;
 }
@@ -844,4 +855,30 @@ footer {
 }
 .terminal-window .green {
     color: green;
+}
+/*introduction*/
+.custom-introduction {
+@import url(fonts/custom-font-raleway.css);
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+.custom-introduction h1 {
+  color: #777;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+#introduction-heading span.typed-cursor{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

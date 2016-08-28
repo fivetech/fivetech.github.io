@@ -16,7 +16,7 @@ $(function() {
   },
   {
     action: 'type',
-    strings: ["Sitemi ziyaret ettiğiniz için teşekkürler.", ''],
+    strings: ["Sitemi ziyaret ettiğiniz için teşekkürler^400"],
     postDelay: 2000
   }
 
@@ -34,7 +34,7 @@ function runScripts(data, pos) {
         case 'type':
           // cleanup for next execution
           prompt.removeData();
-          $('.typed-cursor').text('');
+          $('.terminal .typed-cursor').text('');
           prompt.typed({
             strings: script.strings,
             typeSpeed: 30,
@@ -64,3 +64,13 @@ function runScripts(data, pos) {
           break;
     }
 }
+/*introduction*/
+$(function() {
+	$("#typed").typed({
+		strings: ["Kişisel Web Sitesi"],
+		typeSpeed: 100,
+    backDelay: 1500,
+    loop: false,
+    callback: function(){$('#introduction-heading span.typed-cursor').text('');}
+	});
+});
