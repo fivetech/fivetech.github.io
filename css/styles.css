@@ -30,15 +30,11 @@ footer {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
-.nav.navbar-nav.navbar-right li a:hover {
+.custom-navbar-element a:hover {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
-.navbar-header .color-me:hover {
-    color: #0099cc;
-    border-bottom: 3px solid #0099cc;
-}
-.nav.navbar-nav.navbar-right li a:hover {
+.dropdown .about-link:focus {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
