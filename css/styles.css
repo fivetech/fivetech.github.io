@@ -34,6 +34,10 @@ footer {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
 }
+.dropdown .about-link:hover {
+    color: #0099cc;
+    border-bottom: 3px solid #0099cc;
+}
 .dropdown .about-link:focus {
     color: #0099cc;
     border-bottom: 3px solid #0099cc;
