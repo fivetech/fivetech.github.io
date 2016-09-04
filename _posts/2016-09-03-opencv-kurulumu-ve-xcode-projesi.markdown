@@ -97,3 +97,5 @@ ___
 
 Yukarıdaki kodu çalıştırmak için Xcode üzerinden komut satırı argümanı belirtmeniz gerekmektedir. Bunu gerçekleştirmek için `Command - Less Than` klavye kısayolunu kullanınız. Açılan pencerede `Run` bölümüne girip komut satırı argümanları oluşturabilirsiniz. Komut satırı argümanı olarak istediğiniz resmi yolunu belirtiniz.
 Program çalıştığında ekranda istediğiniz resim görüntülenecektir.
+
+Herhangi bir sorunla karşılaşırsanız benimle iletişime geçebilirsiniz.
