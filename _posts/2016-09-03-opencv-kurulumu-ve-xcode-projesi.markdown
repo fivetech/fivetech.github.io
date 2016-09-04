@@ -9,6 +9,7 @@ imgurl: opencv-logo.png
 
 ---
 ___
+
 ### Giriş
 
 OpenCV açık kaynak görüntü işleme ve makine öğrenme yazılım kütüphanesidir. İçerisinde 2500’den fazla optimize edilmiş algoritma ve birçok modül bulundurur. Bu algoritmalar yüz tespiti ve tanıma, nesne tanıma ve takibi, göz hareketlerini takip etme gibi
@@ -24,6 +25,7 @@ OpenCV statik ya da paylaşımlı kütüphaneler şekilde derlenip kullanılabil
 
 
 ___
+
 ### Kurulum
 
 OS X işletim sisteminde OpenCV kurulumu için Homebrew paket yöneticisini kullanabilirsiniz. Homebrew kurulumu için [http://brew.sh/](http://brew.sh/)
@@ -43,6 +45,7 @@ OS X işletim sisteminde OpenCV kurulumu için Homebrew paket yöneticisini kull
     /usr/local/opt/opencv3/lib
 
 ___
+
 ### OpenCV Xcode Projesi Oluşturma
 
 
