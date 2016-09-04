@@ -10,6 +10,7 @@ imgurl: opencv-logo.png
 ---
 ___
 ### Giriş
+
 OpenCV açık kaynak görüntü işleme ve makine öğrenme yazılım kütüphanesidir. İçerisinde 2500’den fazla optimize edilmiş algoritma ve birçok modül bulundurur. Bu algoritmalar yüz tespiti ve tanıma, nesne tanıma ve takibi, göz hareketlerini takip etme gibi
 amaçlar için tasarlanmıştır. Cross platform yani Windows, OS X, Linux, Android ve iOS
 işletim sistemlerinde çalışabilmektedir.   <!--more-->
